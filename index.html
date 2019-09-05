@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Toni Vu - PORTFOLIO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="background">
+    <div class="container">
+      <div class="Bienvenue"> <h1>Welcome</h1> </div>
+      <div class="Bienvenue2"> <h4>to my</h4> </div>
+      <div class="Bienvenue3"> <h2>Portfolio</h2> </div>
+    </div>
+
+    <div class="grid" id="myHeader">
+      <a href="#moi">Toni Thien Duc Vu</a>
+      <a href="#projet_photos">projets</a>
+      <a href="#contact">contact</a>
+    </div>
+
+  </div><!--/background-->
+
+<div class="content">
+  <div class="grid2">
+  <h1 id="moi">Toni Thien Duc Vu</h1>
+  </div>
+  <div class="grid12">
+    <article>
+      <p>Bonjour et bienvenue sur mon porfolio, je m'appelle Toni Vu. Je suis sur le point de débuter ma 3ème année d'apprentissage à l'ERACOM. J'y ai pris le temps d'apprendre avec soin le métier d'Interactive Media Designer qui pour moi ouvre un grand nombre de possibilité dans le monde de la communication visuel.</p>
+    </article>
+ </div>
+  <div class="projet">
+      <img  src="./img/img.png" class="responsive" alt="icon">
+  </div>
+   <div class="text1">
+     <h1 id="projet_photos">AFFICHES - ANIMATIONS</h1>
+   </div>
+   <div class="photoo2">
+   <img src="./img/20190510_ID471_TONI_VU_MARRAVILLASDEMALI_STORIES_1.gif" alt="icon">
+   <img src="./img/20190422_ID471_VU_TONI_FETEDUSLIP_1.gif " alt="icon">
+   <img src="./img/20192106_ID471_TONI_STORIES_THESELECTER_1.gif " alt="icon">
+   </div>
+   <div class="grid12">
+     <p>
+       Dans le cadre de mon apprentissage à l'ERACOM, j'ai pu réaliser des stories Instagram qui auront pour but d'avertir la population lausannoise des prochaines dates de concert qui auront lieu au Docks. C'était une collaboration riche en liberté et en création. Je suis ravi de pouvoir vous les partager.
+    </p>
+   </div>
+   <div class="photoo22">
+   <img src="./img/moma.jpg" alt="icon">
+   <img src="./img/moma1.jpg" alt="icon">
+   </div>
+   <div class="grid12">
+     <p>
+       Voici deux affiches fictive réalisé durant mes cours de Graphisme. Le graphisme est l'une de mes branches favorites parmi les nombreuses que l'on nous enseigne.
+    </p>
+   </div>
+  <div class="background2">
+  <div class="text1">
+    <h1>MURAPICLAF - PHOTO</h1>
+  </div>
+
+  <div class="projet3">
+  <img src="./img/mura_2.jpg" alt="icon"><br />
+  <img src="./img/mura_3.jpg" alt="icon"><br />
+  <img src="./img/mura_4.jpg" alt="icon"><br />
+  <img src="./img/mura_7.jpg" alt="icon"><br />
+  <img src="./img/mura_8.jpg" alt="icon"><br />
+
+  </div>
+  <div class="grid12">
+    <p>
+    MURAPICLAF est un projet photo réalisé dans le cadre de mes cours de photographie. Ce sont des photos de nature morte centré sur le thème végétal. Ces photos ont été prisent en studio avec deux de mes camarades, sur une surface liquide où nous nous sommes amusé à créer différent univers à l'aide de fleur et d'encre.
+   </p>
+ </div>
+
+ <div class="text1">
+   <h1>VIDEO</h1>
+ </div>
+ <div class="video1">
+    <video controls width="720px" height="540px">
+<source src="img/VU_TONI_PLAN_SEQUENCE_ID471.m4v" type="audio/mp4">
+</video>
+  </div>
+
+  <div class="grid11">
+    <p>
+    "PLAN-SEQUENCE"
+   </p>
+ </div>
+
+ <div class="video1">
+ <img src="./img/AFTER_EFFECT_ANIMATION.gif" alt="icon">
+ </div>
+ <div class="grid11">
+   <p>
+   "ANIMATION AFTER-EFFECT"
+  </p>
+</div>
+
+ <div class="video1">
+    <video controls width="720px" height="540px">
+<source src="img/114_POURSUITE_V14_COLORED_1.m4v" type="audio/mp4">
+</video>
+  </div>
+
+  <div class="grid11">
+    <p>
+    "EOLIPILE"
+   </p>
+ </div>
+
+
+<br />
+  <footer>
+    <div class="text1">
+      <h1 id="contact" >CONTACT</h1>
+    </div>
+      <p>
+        Toni Thien Duc Vu
+      </p>
+      <p>
+        vutoniduc@gmail.com
+     </p>
+      <p>
+        079 174 26 49
+     </p>
+       <p>
+     2019 ©
+     </p>
+     <br />
+     <br />
+  </footer>
+<!-- <h3> Mes projets</h3>
+
+
+<div class="grid3">
+<ul><a href="#">video</a></ul>
+<ul><a href="#">photo</a></ul>
+<ul><a href="#">flash</a></ul>
+<ul><a href="#">After effect</a></ul>
+<ul><a href="#">3D</a></ul>
+<ul><a href="#">Animation</a></ul>
+</div> -->
+
+
+
+</div>
+</div>
+
+<!--sticky header-->
+  <script>
+  window.onscroll = function() {myFunction()};
+
+  var header = document.getElementById("myHeader");
+  var sticky = header.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+  </script>
+</body>
+
+</html>
