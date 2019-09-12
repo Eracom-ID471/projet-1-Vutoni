@@ -49,6 +49,8 @@ html, body {
   line-height:150%;
   font-family: 'Libre Caslon Display', serif;
   scroll-behavior:smooth;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /***** sticky header ****/
@@ -233,12 +235,23 @@ a:hover{
 }
 
 .bonjour{
-  margin-top:5vh;
   display: grid;
   grid-template-columns: 1fr;
   margin-left: 30vh;
   margin-right: 30vh;
   text-align: justify;
+}
+.bonjour_2{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: 30vh;
+  margin-right: 30vh;
+  text-align: justify;
+}
+.bonjour_2 p {
+  text-align: justify;
+  font-family: 'Libre Caslon Display', serif;
+  font-size: 17px;
 }
 .grid11{
   margin-top:10px;
@@ -344,7 +357,7 @@ article p {
   grid-template-columns: 1fr;
   margin-top: 10px;
 }
-.projet3{
+.Murapiclaf{
   opacity: 100%;
   display: grid;
   grid-template-columns: 1fr;
@@ -355,7 +368,7 @@ article p {
   opacity: 0;
   margin-bottom: 70px;
 }
-.projet3 img {
+.Murapiclaf img {
   width: 600px;
 }
 
@@ -489,12 +502,12 @@ font-size: 15px;
   .moma img {
     width: 250px;
   }
-  .projet3{
-    margin-left:300px;
+  .Murapiclaf{
+    margin-left:10vh;;
 
   }
-  .projet3 img {
-    width: 400px;
+  .Murapiclaf img {
+    width: 10vh;
   }
 
   .photomoi {
@@ -523,7 +536,7 @@ font-size: 15px;
   .moma{
     display: grid;
     grid-template-columns: 1fr;
-    margin-left: 8vh;
+    margin-left: 35vh;
   }
   .moma img {
     width: 40vh;
@@ -574,8 +587,14 @@ font-size: 15px;
       margin-left: 10vh;
       margin-right: 10vh;
     }
+    .bonjour_2{
+      display: block;
+      margin: 0 auto;
+      margin-left: 10vh;
+      margin-right: 10vh;
+      margin-top: 25vh;
+    }
     .bonjour p{
-      margin-top: 25vh;t
       text-align: justify;
     }
     .photomoi {
@@ -583,6 +602,22 @@ font-size: 15px;
       margin-top: -10vh;
       margin-left: 10vh;
       margin-right: 10vh;
+    }
+    .moma{
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-left: 16vh;
+    }
+    .moma img {
+      width: 30vh;
+      padding-top: 10vh;
+    }
+    .Murapiclaf{
+      margin-left:4.7vh;
+
+    }
+    .Murapiclaf img {
+      width: 52vh;
     }
 
   }
