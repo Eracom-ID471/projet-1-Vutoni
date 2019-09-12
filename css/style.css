@@ -253,6 +253,18 @@ a:hover{
   font-family: 'Libre Caslon Display', serif;
   font-size: 17px;
 }
+.bonjour_3{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: 30vh;
+  margin-right: 30vh;
+  text-align: justify;
+}
+.bonjour_3 p {
+  text-align: justify;
+  font-family: 'Libre Caslon Display', serif;
+  font-size: 17px;
+}
 .grid11{
   margin-top:10px;
   display: grid;
@@ -503,11 +515,11 @@ font-size: 15px;
     width: 250px;
   }
   .Murapiclaf{
-    margin-left:10vh;;
-
+    margin-left:30vh;
+    margin-right:auto;
   }
   .Murapiclaf img {
-    width: 10vh;
+    width: 60vh;
   }
 
   .photomoi {
@@ -560,13 +572,16 @@ font-size: 15px;
       margin-right: 20vh;
     }
     .affiche{
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
       margin-left: 7vh;
       margin-right: 7vh;
       grid-gap: 7%;
     }
     .affiche img {
       width: 40vh;
+    }
+    .bonjour_2{
+      margin-top: 30vh;
     }
 
   }
@@ -592,7 +607,24 @@ font-size: 15px;
       margin: 0 auto;
       margin-left: 10vh;
       margin-right: 10vh;
-      margin-top: 25vh;
+      margin-top: 30vh;
+    }
+    .bonjour_2 p {
+      text-align: justify;
+      font-family: 'Libre Caslon Display', serif;
+      font-size: 17px;
+    }
+    .bonjour_3{
+      display: block;
+      margin: 0 auto;
+      margin-left: 10vh;
+      margin-right: 10vh;
+
+    }
+    .bonjour_2 p {
+      text-align: justify;
+      font-family: 'Libre Caslon Display', serif;
+      font-size: 17px;
     }
     .bonjour p{
       text-align: justify;
