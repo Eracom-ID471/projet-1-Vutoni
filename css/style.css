@@ -238,7 +238,7 @@ a:hover{
   grid-template-columns: 1fr;
   margin-left: 30vh;
   margin-right: 30vh;
-  text-align: center;
+  text-align: justify;
 }
 .grid11{
   margin-top:10px;
@@ -250,6 +250,9 @@ a:hover{
   text-align: justify;
 }
 
+.bonjour p {
+  font-size: 17px;
+}
 article p {
   text-align: justify;
   font-family: 'Libre Caslon Display', serif;
@@ -398,29 +401,29 @@ figcaption{
 .photoo img {
   width: 330px;;
 }
-.affiches{
+.affiche{
   opacity: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-left: 190px;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  animation: op 3s ease-in-out;
-  animation-fill-mode: forwards;
-  animation-delay: 2s;
-  opacity: 0;
+  margin-left: 30vh;
+  margin-right: 30vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  grid-gap: 7%;
+
 }
-.photoo2 img {
+.affiche img {
   width: 275px;
 }
-.photoo22{
+
+.moma{
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top:100px;
   margin-left: 230px;
   margin-bottom: 100px;
 }
-.photoo22 img {
+.moma img {
   width: 350px;
   filter: drop-shadow(10px 10px 10px #aaa);
 }
@@ -470,12 +473,7 @@ font-size: 15px;
 
 
 @media screen and (max-width: 1024px) {
-  .photoo2 img {
-    width: 200px;
-  }
-  .photoo2{
-    margin-left: 140px;
-  }
+
   .projet {
     grid-template-columns: 1fr ;
     margin-left: 50px;
@@ -485,10 +483,10 @@ font-size: 15px;
   .projet img{
     width: 850px;
   }
-  .photoo22{
+  .moma{
     margin-left: 170px;
   }
-  .photoo22 img {
+  .moma img {
     width: 250px;
   }
   .projet3{
@@ -522,20 +520,38 @@ font-size: 15px;
       margin-left: 20vh;
       margin-right: 20vh;
     }
+    .affiche{
+
+      grid-template-columns: 1fr;
+      margin-left: 20vh;
+      margin-right: 20vh;
+      grid-gap: 7%;
+
+    }
 
   }
   @media screen and (max-width: 600px) {
 
-    .photoo2 img {
-      width: 100PX;
+    .affiche{
+
+      grid-template-columns: 1fr;
+      margin-left: 17vh;
+      margin-right: 17vh;
+      grid-gap: 7%;
+
+    }
+    .affiche img {
+      width: 30vh;
     }
     .bonjour{
-      margin-top:10px;
       display: block;
       margin: 0 auto;
-      text-align: center;
       margin-left: 10vh;
       margin-right: 10vh;
+    }
+    .bonjour p{
+      margin-top: 25vh;t
+      text-align: justify;
     }
     .photomoi {
       grid-template-columns: 1fr ;
