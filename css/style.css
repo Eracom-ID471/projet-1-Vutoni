@@ -228,11 +228,12 @@ a:hover{
   grid-template-columns: 1fr;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 2vh;
   text-align: center;
 }
 
 .bonjour{
-  margin-top:2vh;
+  margin-top:5vh;
   display: grid;
   grid-template-columns: 1fr;
   margin-left: 30vh;
@@ -274,14 +275,13 @@ article p {
 
 .photomoi {
   grid-template-columns: 1fr ;
-  margin-left: 18.5rem;
-  margin-top: -150px;
+  margin-left: 32vh;
+  margin-right: 32vh;;
+  margin-top: -15vh
 }
 
 .photomoi img{
-  width: 850px;
-  margin-left: auto;
-  margin-top: -auto;
+  width: 100em;
 }
 
 .moi{
@@ -398,7 +398,7 @@ figcaption{
 .photoo img {
   width: 330px;;
 }
-.photoo2{
+.affiches{
   opacity: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -467,6 +467,8 @@ margin-top: 70px;
 footer p {
 font-size: 15px;
 }
+
+
 @media screen and (max-width: 1024px) {
   .photoo2 img {
     width: 200px;
@@ -497,7 +499,11 @@ font-size: 15px;
     width: 400px;
   }
 
-
+  .photomoi {
+    grid-template-columns: 1fr ;
+    margin-left: 31vh;
+    margin-right: 31vh;
+  }
 
 }
 
@@ -507,6 +513,12 @@ font-size: 15px;
       display: block;
       margin: 0 auto;
       text-align: center;
+      margin-left: 20vh;
+      margin-right: 20vh;
+    }
+    .photomoi {
+      grid-template-columns: 1fr ;
+      margin-top: -7vh;
       margin-left: 20vh;
       margin-right: 20vh;
     }
@@ -522,6 +534,12 @@ font-size: 15px;
       display: block;
       margin: 0 auto;
       text-align: center;
+      margin-left: 10vh;
+      margin-right: 10vh;
+    }
+    .photomoi {
+      grid-template-columns: 1fr ;
+      margin-top: -10vh;
       margin-left: 10vh;
       margin-right: 10vh;
     }
