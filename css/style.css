@@ -222,12 +222,12 @@ a:hover{
   }
 }
 
-.grid2{
+.Toni{
   margin-top:10px;
   display: grid;
   grid-template-columns: 1fr;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
@@ -475,7 +475,7 @@ font-size: 15px;
   }
   .projet {
     grid-template-columns: 1fr ;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: -150px;
   }
 
@@ -495,6 +495,7 @@ font-size: 15px;
   .projet3 img {
     width: 400px;
   }
+
 }
 
   @media screen and (max-width: 600px) {
@@ -503,5 +504,12 @@ font-size: 15px;
       width: 100PX;
     }
 
+    .grid12{
+      margin-top:10px;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+
+    }
 
   }
