@@ -254,6 +254,8 @@ article p {
   text-align: justify;
   font-family: 'Libre Caslon Display', serif;
   font-size: 17px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .grid3{
@@ -273,7 +275,7 @@ article p {
   font-size: 6vw;
 }
 
-.projet {
+.photo_moi {
   grid-template-columns: 1fr ;
   margin-left: 295px;
   margin-top: -150px;
@@ -496,6 +498,7 @@ font-size: 15px;
     width: 400px;
   }
 
+
 }
 
   @media screen and (max-width: 600px) {
@@ -503,12 +506,12 @@ font-size: 15px;
     .photoo2 img {
       width: 100PX;
     }
-
     .grid12{
       margin-top:10px;
       display: block;
       margin: 0 auto;
       text-align: center;
+
 
     }
 
