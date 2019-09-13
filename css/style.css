@@ -656,4 +656,63 @@ font-size: 15px;
       width: 20vh;
       text-align: center;
     }
+    .Bienvenue{
+      margin-top: 100px;;
+      left:5%;
+      font-size: 2vw;
+      font-size-adjust: auto;
+      text-align: center;
+      letter-spacing: 50px;
+      position : relative;
+      animation-name: Bienvenue;
+      animation-duration: 3s;
+      transition: all 3s;
+    }
+    @keyframes Bienvenue {
+     from{
+       left:-100%;
+     }
+     to{
+       left:5%;
+     }
+    }
+
+    .Bienvenue2{
+      left:0px;
+      font-size: 2vw;
+      font-size-adjust: auto;
+      text-align: center;
+      letter-spacing: 20px;
+      animation-name: Bienvenue2;
+      position: relative;
+      animation-duration: 4s;
+      transition: all 3s;
+    }
+    @keyframes Bienvenue2 {
+     from{
+       left:-2000px;
+     }
+     to{
+       left:-100px;;
+     }
+    }
+    .Bienvenue3{
+      left:-1.5%;
+      font-size: 3vw;
+      font-size-adjust: auto;
+      text-align: center;
+      letter-spacing: 0.3vw;
+      animation-name: Bienvenue3;
+      position: relative;
+      animation-duration: 5s;
+      transition: all 3s;
+    }
+    @keyframes Bienvenue3 {
+     from{
+       left:-100%;
+     }
+     to{
+       left:-1.5%;
+     }
+    }
   }
