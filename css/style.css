@@ -265,16 +265,6 @@ a:hover{
   font-family: 'Libre Caslon Display', serif;
   font-size: 17px;
 }
-.grid11{
-  margin-top:10px;
-  display: grid;
-  grid-template-columns: 1fr;
-  margin-left: 235px;
-  margin-right: 300px;
-  text-align: center;
-  text-align: justify;
-}
-
 .bonjour p {
   font-size: 17px;
 }
@@ -481,15 +471,26 @@ figcaption{
 .photoo4 img {
   width: 800px;
 }
-.video1{
+
+.video{
   margin-top: 70px;
   text-align: center;
 }
+.eolipile {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  height:0;
+}
+
+.eolipile iframe {
+  margin-left: 20%;
+  height:60%;
+  width:60%;}
 
 footer{
 text-align: center;
 background-color: #FAFAFA;
-margin-top: 70px;
+padding-top: 1vh;
 }
 
 footer p {
@@ -515,7 +516,7 @@ font-size: 15px;
     width: 250px;
   }
   .Murapiclaf{
-    margin-left:30vh;
+    margin-left: 27vh;
     margin-right:auto;
   }
   .Murapiclaf img {
@@ -651,5 +652,8 @@ font-size: 15px;
     .Murapiclaf img {
       width: 52vh;
     }
-
+    .gif{
+      width: 20vh;
+      text-align: center;
+    }
   }
