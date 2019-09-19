@@ -1,6 +1,8 @@
 # projet-1-Vutoni
 projet-1-Vutoni created by GitHub Classroom
 
+Dans ce projet nous avons eu comme but d'améliorer notre portfolio en utilisant Git hub.
+
 Commit
 Class " grid" --> Class "Toni" Responsive
 Article p responsive
