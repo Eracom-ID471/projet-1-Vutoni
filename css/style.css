@@ -678,11 +678,11 @@ font-size: 15px;
     }
 
     .Bienvenue2{
-      left:0px;
+      left:1%;
       font-size: 2vw;
       font-size-adjust: auto;
       text-align: center;
-      letter-spacing: 20px;
+      letter-spacing: 7px;
       animation-name: Bienvenue2;
       position: relative;
       animation-duration: 4s;
@@ -690,10 +690,10 @@ font-size: 15px;
     }
     @keyframes Bienvenue2 {
      from{
-       left:-2000px;
+       left:-100%;
      }
      to{
-       left:-100px;;
+       left:1%;
      }
     }
     .Bienvenue3{
